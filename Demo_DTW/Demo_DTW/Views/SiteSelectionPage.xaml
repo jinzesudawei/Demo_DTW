@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo_DTW.Views.SiteSelectionPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Button x:Name="tb上传记录" Text="上传记录" Command="{Binding 上传记录Command}"></Button>
+            <Button x:Name="tb物流跟踪" Text="物流跟踪" Command="{Binding 物流跟踪Command}"></Button>
+            <Button x:Name="tb扫描记录" Text="扫描记录" Command="{Binding 扫描记录Command}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
